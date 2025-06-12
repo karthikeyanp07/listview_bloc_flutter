@@ -1,16 +1,32 @@
-# listview_bloc_flutter
+# 📋 Flutter ListView UI with Bloc
 
-A new Flutter project.
+A Flutter project that demonstrates a clean implementation of **MVVM architecture**, **Bloc for state management**, and **Dio for networking**, fetching and displaying a list of users from the public GitHub API.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- MVVM pattern with clear separation of concerns
+- `flutter_bloc` for scalable state management
+- `dio` for robust API calls
+- Displays GitHub user list with avatar, username, and ID
+- Error handling and loading indicators
+- Clean, modular project structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+<p float="left">
+  <img src="screenshot/image2.png" alt="User ListView Screenshot 1" width="300" />
+  <img src="screenshot/image1.png" alt="User ListView Screenshot 2" width="300" />
+</p>
+
+---
+
+## 🚧 Note
+
+> This project focuses on the **UI and state management layer only**.  
+No API or database integration is included—**user data is mocked locally** for demonstration purposes.
+
+---
